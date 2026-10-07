@@ -1,0 +1,10 @@
+/* Domain Tab Groups — favicon des groupes natifs */
+
+/* Le script privileged domain-tab-groups.uc.js renseigne --dtg-favicon. */
+.tab-group-label[data-domain-tab-groups-favicon="1"] {
+  background-image: var(--dtg-favicon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 6px center !important;
+  background-size: var(--dtg-favicon-size, 16px) var(--dtg-favicon-size, 16px) !important;
+  padding-inline-start: 28px !important;
+}
